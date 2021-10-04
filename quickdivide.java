@@ -31,8 +31,8 @@ class quickdivide {
         int N = 100;
         int[] arr1 = new int[N];
 
-        for (int i = N - 1; i >= 0; i--) {
-            arr1[i] = N - i;
+        for (int i = 0; i < 1000; i++) {
+            arr1[i] = i;
         }
         quickSort(arr1, 0, N - 1);
 
